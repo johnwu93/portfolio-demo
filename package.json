@@ -1,0 +1,18 @@
+{
+  "name": "build-a-portfolio-site",
+  "version": "1.0.0",
+  "description": "For this project, you'll be building a portfolio website. You will be provided a design mockup as a PDF-file, and you must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete through the course of your Nanodegree program. Please note that while you should aim to recreate the mockup, you may also use your own custom images to personalize this projec",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Wu",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bootstrap": "^0.1.0"
+  }
+}

@@ -1,70 +1,75 @@
-* {
-  box-sizing: border-box;
+body {
   font-family: 'Lato', sans-serif;
 }
 
 
-hr {
-  height: 5px;
-  background: #bcbbbb;
+.header__logo {
+  height: 100px;
 }
 
 
-.content {
-  flex: 1;
+.header--font-color {
+  color: #2d3c49;
 }
 
 
-.wide-image {
-  min-width: 100%;
+.header__name {
+  font-weight: 100;
+  font-size: 40px;
 }
 
 
-.background-pic-container {
+.header__position {
+  font-size: 15px;
+}
+
+
+.cover-img {
   overflow: hidden;
   max-height: 240px;
 }
 
 
-.background-pic {
-  width: 100%;
+.cover-img--width {
+  min-width: 100%;
 }
 
 
-.my-thumbnail {
-  max-width: 100px;
+.divider {
+  height: 1px;
+  background-color: #7d97ad;
 }
 
 
-.horizontal-bar {
-  min-width: 10px;
-}
-
-
-.header--color {
-  color: #2d3c49;
-}
-
-
-.name--font {
-  font-weight: 100;
-  font-size: 60px;
-}
-
-
-.position--font {
-  font-size: 20px;
-}
-
-
-.content__title {
+.project__header {
   font-weight: 300;
   color: #7d97ad;
 }
 
 
-.project__image {
-  height: 200px;
+.project__image--content {
+  max-width: 30vw;
+  height: 15vw;
+}
+
+
+.project__image--container {
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.appify {
+  background-image: url(../img/sample/appify.jpg);
+}
+
+.sunflower {
+  background-image: url(../img/sample/sunflower.jpg);
+}
+
+
+.bokeh {
+  background-image: url(../img/sample/bokeh.jpg);
 }
 
 
@@ -74,7 +79,29 @@ hr {
 }
 
 
-.protect__link {
+.project__link {
   font-size: 10px;
   color: #2d3c49;
+}
+
+
+@media (min-width: 768px) {
+  .header__name {
+    font-size: 60px;
+  }
+
+
+  .header__position {
+    font-size: 20px;
+  }
+
+
+  .divider {
+    height: 3px;
+  }
+
+
+  .project__image--content {
+    max-width: 100%;
+  }
 }

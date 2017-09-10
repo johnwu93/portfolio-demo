@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
+  <title>My Portolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
@@ -12,12 +12,17 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-2 text-center">
-        <img class="img-thumbnail header__logo" src="img/profile.jpg" alt="picture of John Wu">
+      <div class="col-12 col-md-2">
+        <div class="header__logo--wrapper">
+          <img class="img-thumbnail header__logo--content mx-auto" src="img/profile.jpg"
+               alt="picture of John Wu">
+        </div>
       </div>
       <div class="col-md-10 text-uppercase text-center text-md-right header--font-color">
         <h1 class="header__name">John Wu</h1>
-        <h3 class="header__position">Software Engineer/Data Scientist</h3>
+        <div class="foo">
+          <h3 class="header__position">Software Engineer/Data Scientist</h3>
+        </div>
       </div>
     </div>
   </div>
@@ -31,10 +36,10 @@
   </div>
 
 
-  <div class="container cover-img">
+  <div class="container">
     <div class="row">
-      <div class="col-12">
-        <img class="img-fluid cover-img--width py-3" src="img/sample/code.jpg" alt="Code (Background for my portfolio)">
+      <div class="col-md-12 py-3">
+        <div class="cover-img--container cover-img" style="background-image: url(img/lego.jpg);"></div>
       </div>
     </div>
   </div>
@@ -51,25 +56,32 @@
     <div class="row text-center">
 
       <div class="col-md-4 py-md-1">
-        <!--Used a div rather than an image to achieve a "crop" for the images-->
-        <div class="appify project__image--container project__image--content mx-auto"></div>
+        <div class="project__image--container--test mx-auto">
+          <img src="img/amexPoster.jpg" class="project__image--content--test" alt="American Express Project">
+        </div>
         <h3 class="project__title text-uppercase pt-2 my-0">Appify</h3>
         <p>
-          <a href="https://github.com/udacity/Appify/" class="project__link my-0">https://github.com/udacity/Appify/</a>
+          <a href="https://github.com/udacity/Appify/" class="project__link my-0">https://
+            http://nyu-amex-cardholder.herokuapp.com</a>
         </p>
       </div>
 
       <div class="col-md-4 py-md-1">
-        <div class="sunflower project__image--container project__image--content mx-auto"></div>
+        <div class="project__image--container--test mx-auto">
+          <img src="img/structured_learning_jobs.jpg" class="project__image--content--test"
+               alt="Graph showing the relationship between different skills sets of software engineers and data scientists">
+        </div>
         <h3 class="project__title text-uppercase pt-2 my-0">Sunflower</h3>
         <p>
-          <a href="https://github.com/udacity/Sunflower/" class="project__link my-0">https://github.com/udacity/Sunflower
-          </a>
+          <a href="pdf/structured-learning-skills.pdf" class="project__link my-0">Paper</a>
         </p>
       </div>
 
       <div class="col-md-4 py-md-1">
-        <div class="bokeh project__image--container project__image--content mx-auto"></div>
+        <div class="project__image--container--test mx-auto">
+          <iframe class="project__image--content--test" width="560" height="315" src="https://www.youtube.com/embed/nZ5MowFc9So" frameborder="0"
+                  allowfullscreen></iframe>
+        </div>
         <h3 class="project__title text-uppercase pt-2 my-0">Bokeh</h3>
         <p>
           <a href="https://github.com/udacity/bokeh" class="project__link my-0">https://github.com/udacity/bokeh</a>

@@ -12,8 +12,6 @@ body {
 
 
 .header__logo--content {
-  top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
   position: absolute;
@@ -49,8 +47,8 @@ body {
 
 
 .divider {
+  background: #7d97ad;
   height: 1px;
-  background-color: #7d97ad;
 }
 
 

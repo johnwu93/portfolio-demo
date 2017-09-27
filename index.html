@@ -5,24 +5,26 @@
   <title>My Portolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
+  <link rel="stylesheet" type="text/css" href="src/css/main.css">
+
+  <script type="module" src="build/bundle.js"></script>
+
 </head>
 <body>
+
+
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-2">
         <div class="header__logo--wrapper">
-          <img class="img-thumbnail header__logo--content mx-auto" src="img/profile.jpg"
-               alt="picture of John Wu">
+          <img class="img-thumbnail header__logo--content mx-auto" src="img/profile.jpg" alt="picture of John Wu">
         </div>
       </div>
       <div class="col-md-10 text-uppercase text-center text-md-right header--font-color">
         <h1 class="header__name">John Wu</h1>
-        <div class="foo">
-          <h3 class="header__position">Software Engineer/Data Scientist</h3>
-        </div>
+        <h3 class="header__position">Software Engineer/Data Scientist</h3>
       </div>
     </div>
   </div>
@@ -38,7 +40,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 py-3">
+      <div class="col-md-12 py-md-3">
         <div class="cover-img--container">
           <img src="img/lego.jpg" alt="Lego sculpture of Boston" class="cover-img mx-auto">
         </div>
@@ -48,47 +50,14 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center text-md-left py-3">
+      <div class="col-md-12 text-center text-md-left py-md-3 pb-3">
         <h2 class="project__header">Featured Work</h2>
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="row text-center">
-
-      <div class="col-md-4 py-md-1">
-        <div class="project__image--container mx-auto">
-          <img src="img/amexPoster.jpg" class="project__image--content" alt="American Express: Merchant-Backed Loyality Services">
-        </div>
-        <h3 class="project__title text-uppercase pt-2 my-0">Merchant-Backed Loyality Services</h3>
-        <p>
-          <a href="https://nyu-amex-cardholder.herokuapp.com" class="project__link my-0">
-            https://nyu-amex-cardholder.herokuapp.com</a>
-        </p>
-      </div>
-
-      <div class="col-md-4 py-md-1">
-        <div class="project__image--container mx-auto">
-          <img src="img/structured_learning_jobs.jpg" class="project__image--content"
-               alt="Graph showing the relationship between different skills sets of software engineers and data scientists">
-        </div>
-        <h3 class="project__title text-uppercase pt-2 my-0">Learning the Structure of Job Skillsets</h3>
-        <p>
-          <a href="pdf/structured-learning-skills.pdf" class="project__link my-0">Paper</a>
-        </p>
-      </div>
-
-      <div class="col-md-4 py-md-1">
-        <div class="project__image--container mx-auto">
-          <iframe class="project__image--content" width="560" height="315" src="https://www.youtube.com/embed/nZ5MowFc9So" frameborder="0"
-                  allowfullscreen></iframe>
-        </div>
-        <h3 class="project__title text-uppercase pt-2 my-0">Contagion Modeling</h3>
-        <p>
-          <a href="pdf/contagion-modeling.pdf" class="project__link my-0">Paper</a>
-        </p>
-      </div>
+    <div class="row text-center projects">
 
     </div>
   </div>

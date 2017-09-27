@@ -9,10 +9,21 @@
   "author": "John Wu",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta"
+    "bootstrap": "^4.0.0-beta",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.4.0",
     "grunt": "^1.0.1",
-    "grunt-bootstrap": "^0.1.0"
+    "grunt-htmlhint": "^0.9.13",
+    "stylelint": "^8.1.1",
+    "webpack": "^3.6.0"
   }
 }

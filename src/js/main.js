@@ -7,9 +7,11 @@ const projects = {projects: createProjects()};
 
 $(document).ready(() => {
   const projectHTMLTemplate = `
-    {{#each projects}}
+  <div class="row text-center">
+  {{#each projects}}
       {{renderProject project}}
     {{/each}}
+  </div>
   `;
 
   handlebars.registerHelper('renderProject', renderProject);

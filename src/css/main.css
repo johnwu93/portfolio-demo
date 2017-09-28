@@ -50,7 +50,6 @@ body {
 }
 
 
-
 .divider {
   height: 1px;
   background-color: #7d97ad;
@@ -74,15 +73,22 @@ body {
 
 
 .project__title {
-  font-weight: 300;
+  font-weight: 500;
   color: #2d3c49;
   font-size: 1em;
 }
 
 
 .project__link {
-  font-size: 10px;
+  font-size: 0.75em;
   color: #2d3c49;
+}
+
+
+.project__description {
+  font-weight: 300;
+  color: #2d3c49;
+  font-size: 1em;
 }
 
 
